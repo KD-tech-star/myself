@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
-// import AB from "../../assets/aboutme.jpg";
+import AB from "../../assets/imagekd.jpg";
 
 import { FiAward, FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -15,7 +15,7 @@ function About() {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
-              <img src={ME} alt="" />
+              <img src={AB} alt="" />
             </div>
           </div>
           <div className="about__content">
