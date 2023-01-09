@@ -25,7 +25,7 @@ export default function Nav() {
           <AiOutlineUser />
         </a>
         <a
-          href="#experiance"
+          href="#experience"
           onClick={() => setActiveNav("#experiance")}
           className={activeNav === "#experiance" ? "active" : ""}
         >

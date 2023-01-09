@@ -3,7 +3,6 @@ import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -11,34 +10,34 @@ export default function Footer() {
       <div className="footer__logo">RJ SONU KD</div>
       <ul className="permalinks">
         <li>
-          <Link>Home</Link>
+          <a href="#">Home</a>
         </li>
         <li>
-          <Link>About</Link>
+          <a href="#about">About</a>
         </li>
         <li>
-          <Link>Experience</Link>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <Link>Service</Link>
+          <a href="#services">Service</a>
         </li>
         <li>
-          <Link>Portfolio</Link>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <Link>Testimonials</Link>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
-          <Link>Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="footer__socials">
        
         
         
-        <Link to = 'https://facebook.com/'> <FaFacebookF /></Link>
-        <Link to = 'https://instagram.com/'> <FiInstagram /></Link>
-        <Link to = 'https://twitter.com/'> <IoLogoTwitter /></Link>
+        <a href='https://facebook.com/'> <FaFacebookF /></a>
+        <a href= 'https://instagram.com/'> <FiInstagram /></a>
+        <a href= 'https://twitter.com/'> <IoLogoTwitter /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; nocopyright@SKD</small>

@@ -3,7 +3,6 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
-import { Link } from "react-router-dom";
 function Contact() {
   return (
     <div>
@@ -16,21 +15,21 @@ function Contact() {
               <MdOutlineEmail className="contact__option-icon" />
               <h4>Email</h4>
               <h5>hiitechz07@gmail.com</h5>
-              <Link to="mailto:hiitechz07@gmail.com">Send a message</Link>
+              <a href="mailto:hiitechz07@gmail.com">Send a message</a>
             </article>
             <article className="contact__option">
               <RiMessengerLine className="contact__option-icon" />
               <h4>Messanger</h4>
               <h5>RjSonuKd</h5>
-              <Link to="https://m.me//rjsonu.kd">Send a message</Link>
+              <a href="https://m.me//rjsonu.kd">Send a message</a>
             </article>
             <article className="contact__option">
               <BsWhatsapp className="contact__option-icon" />
               <h4>Whatsapp</h4>
               <h5>9170412775</h5>
-              <Link to="https://api.whatsapp.com/send?Phone+9179412775">
+              <a href="https://api.whatsapp.com/send?Phone+9179412775">
                 Send a message
-              </Link>
+              </a>
             </article>
           </div>
           {/**END OF THE  CONTACT OPTIONS */}

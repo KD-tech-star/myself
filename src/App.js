@@ -7,6 +7,7 @@ import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import React from "react";
+import Services from "./components/services/Services";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <About />
     <Experience />
     <Portfolio />
+    <Services/>
     <Testimonials />
     <Contact />
     <Footer />

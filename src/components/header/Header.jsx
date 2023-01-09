@@ -2,7 +2,7 @@ import React from "react";
 import CTA from "./CTA";
 import "./header.css";
 import ME from "../../assets/me.png";
-// import KD2 from "../../assets/kd2.png";
+// import KD2 from "../../assets/Myproject.png";
 // import AB from "../../assets/aboutme.jpg";
 
 
